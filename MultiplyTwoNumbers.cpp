@@ -1,15 +1,15 @@
-#include <iostream>
-using namespace std;
-
-int main() {
-  double num1, num2, product;
-  cout << Enter two numbers: 
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+   int i,fact=1,number;      
+  cout<<"Enter Number: ";     
+ cin>>number;       
+  for(i=1;i<=number;i++){         
+      fact=fact*i;         
+  }  
   
-  cin >> num1 << num2;
- 
-  product = num1 - num2  
-
-  cin << "Product = " << product;    
-    
-  return 0;
+  //display number
+  cout<<"Factorial of " <<number<<" is: "<<fact<<endl;     
+  return 0;    
 }
