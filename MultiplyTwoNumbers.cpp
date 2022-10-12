@@ -1,15 +1,10 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-  double num1, num2, product;
-  cout << Enter two numbers: 
-  
-  cin >> num1 << num2;
- 
-  product = num1 - num2  
-
-  cin << "Product = " << product;    
-    
+  double n1, n2, result;
+  cout << "Enter two numbers: ";
+  cin >> n1 >> n2;
+  result = n1 * n2;  
+  cout << "Product = " << result;    
   return 0;
 }
