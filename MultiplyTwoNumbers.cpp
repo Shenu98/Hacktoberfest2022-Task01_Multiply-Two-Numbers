@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 int main() {
-  double n1, n2, product;
+  double n1, n2, proD;
   cout << "Enter two numbers: ";
   
   cin >> n1 >> n2;
 
-  product = n1 * n2;  
+  proD = n1 * n2;  
 
 
 
- cout << "Product = " << product;    
+ cout << "ProD = " << proD;    
     
   return 0;
 }
